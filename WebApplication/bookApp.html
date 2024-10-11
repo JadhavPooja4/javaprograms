@@ -14,17 +14,51 @@
         <p>navbar</p>
     </div>
     <ul>
+        
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">BookName</a></li>
-        <li><a href="#">BookAuthor</a></li>
+        <li><a href="#">AvailableBooks</a></li>
+        <br><br>
+        <div class="searching">
+            <form action="http://localhost:8083/books" method="get" class="search">
+                <input type="text" placeholder="Search Anythings" name="q">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
     </ul>
 </nav>
+
+
+
+
+
 <div class="containt-items">
+    
     <img src="image/stack-of-books-on-a-brown-background-concept-for-world-book-day-photo.jpg">
+    
 </div>
 
+<div class="form">
 
+    <h1>Form</h1>
+    <form action="http://localhost:8083/books" method="post">
+        <p>BookName</p>
+        <input type="text" name=" Book Name" placeholder="Enter Book Name">
+        <br><br>
+        <p>BookAuthor</p>
+        <input type="text" name=" Book Author" placeholder="Enter Book Author">
+        <br><br>
+        <p>BookISBNno</p>
+        <input type="text" name=" ISBN no" placeholder="Enter Book ISBN no">
+        <br><br>
+        <button type="submit">Search</button>
+    </form>
+
+</div>
+
+<br><br>
+<h1>BACK-END DEVELOPERS BOOK'S</h1>
+<br><br>
 
 <div class="wrapper">
     <div class="card">
@@ -34,6 +68,8 @@
             <p>Java was originally developed by James Gosling
                  at Sun Microsystems. It was released in May 1995 
                  as a core component of Sun's Java platform</p>
+                 <br><br>
+                 <p>ISBN Number </p>
             <a href="#" class="btn">Read More</a>
         </div>
     </div>
@@ -51,15 +87,68 @@
     </div>
 
     <div class="card">
-        <img src="image/web.jfif">
+        <img src="image/j2ee.jfif">
         <div class="info">
-            <h1>WEB TECHNOLOGY</h1>
-            <p>Tim Berners-Lee created the World Wide Web
-                 in 1989 at CERN</p>
+            <h1>Advance Java</h1>
+            <p>Gosling was born on May 19, 1955. 
+                He earned a bachelor's degree in computer 
+                science from the University of Calgary and a master's 
+                and PhD from Carnegie Mellon University</p>
             <a href="#" class="btn">Read More</a>
         </div>
     </div>
 </div>
+
+
+
+<br><br>
+<h1>FRONT-END DEVELOPERS BOOK'S</h1>
+<br><br>
+
+
+
+
+<div class="wrapper">
+    <div class="card">
+        <img src="image/html.png">
+        <div class="info">
+            <h1>Html</h1>
+            <p>Tim Berners-Lee created the World Wide Web
+                in 1989 at CERN</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image/css.jpg">
+        <div class="info">
+            <h1>Css</h1>
+            <p>1994- HÃ¥kon Wium Lie proposed the idea of CSS. 
+                1996- The first version of CSS was invented. 
+                1998- CSS 2 was released and work on CSS 3 began. 
+                </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image/rj.webp">
+        <div class="info">
+            <h1>JavaScript</h1>
+            <p>Eich is an American computer programmer and 
+                technology executive. He was born on July 4, 
+                1961 in Pittsburgh, Maryland</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+<br><br>
+
 
 
 <footer>
@@ -93,6 +182,10 @@
         </div>
 
 </footer>
+
+
+
+
     
 
 </body>
